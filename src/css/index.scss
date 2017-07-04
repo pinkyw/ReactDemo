@@ -1,0 +1,36 @@
+.g-Container{
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	font-size: 14px;
+	.m-Slider{
+		margin: 0;
+		padding: 0;
+		width: 20%;
+		padding-left: 10px;
+		float: left;
+		background: #efefef;
+		li{
+			line-height: 40px;
+			font-size: 16px;
+			list-style: none;
+		}
+		a{
+			height: 40px;
+		    color: #5e6d82;
+		    text-decoration: none;
+		    cursor: pointer;
+		    &:hover, &.active{
+		    	color: #20a0ff;
+		    }
+		}
+		.m-SliderItem{
+			padding-left: 10px;
+		}
+	}
+	.m-Content{
+		margin: 0;
+		padding: 0;
+		margin-left: 25%;
+	}
+}
